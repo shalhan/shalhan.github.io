@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #7D7484;
+  font-size: 16px;
+}
+
+a {
+  color: #2e2e2e;
+}
+
+a:hover {
+  color: #666;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #3A3C42 ;
+  padding: 3em 20em;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+h1, h2, h3 {
+  color: #9CCD62;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.text--left {
+  text-align: left !important;
+}
+
+.font--primary {
+  color: #9CCD62;
+}
+
+.font--bold {
+  font-weight: 600;
+}
+
+.invoice {
+  font-family: 'Bebas Neue', cursive;
+  min-height: 100vh;
+  color: #7D7484;
+  border-radius: 2px;
+  background-image: url('background.png');
+  background-size: contain;
+  -webkit-box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37); 
+  box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37);
+  padding: 4em;
+  font-size: 14px;
+  position: relative;
+  letter-spacing: 1.8px;
+}
+
+.invoice__title {
+  position: absolute;
+  top: -25px;
+  left: 18%;
+  letter-spacing: 35px;
+  display: flex;
+  font-size: 3em;
+}
+
+.invoice__title h1 {
+  margin: 0;
+  color: #3A3C42;
+}
+
+.invoice__row {
+  display: flex;
+  margin-bottom: 28px;
+}
+
+.invoice__row--flex {
+  display: flex;
+}
+
+.invoice__row--evenly {
+  justify-content: space-evenly;
+}
+
+.invoice__row .invoice__column {
+  flex: 0.5;
+}
+
+.invoice__column-sm {
+
+}
+
+.invoice__info {
+  width: 100%;
+}
+
+.invoice__info.invoice__info--center {
+  text-align: center;
+}
+
+.invoice__info p {
+  margin: 11px 0;
+}
+
+.invoice__info.invoice__info--right {
+  float: right;
+  text-align: right;
+}
+
+.invoice__info h2 {
+  letter-spacing: 8px;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+
+.table {
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 12px 10px;
+  text-align: center;
+}
+
+.table .table__body tr:last-child td {
+  padding-bottom: 28px;
+}
+
+.table td:first-child {
+  width: 40%;
+}
+
+.table td:first-child {
+  text-align: left;
+}
+
+.table .table__header {
+  font-weight: 600;
+}
+
+.table .table__header {
+  background-color: #9CCD62;
+  color: #101010;
+}
+
+.table .table__body {
+  border-bottom: 3px solid #9CCD62;
+}
+
+.table .table__footer td {
+  padding: 6px 10px;
+}
+
+.table .table__footer tr:first-child td {
+  padding-top: 28px;
+}
+
+.table .table__footer tr:last-child td {
+  padding-top: 14px;
+}
+
+.invoice .invoice__body .invoice__row {
+  margin-bottom: 32px;
+}
+
+.invoice .invoice__footer {
+  min-height: 12em;
+}
+
+.invoice .invoice__footer .invoice__credit {
+  position: absolute;
+  /* should follow padding bottom of .invoice */
+  bottom: 4em; 
+}

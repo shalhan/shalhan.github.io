@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #666;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+a {
+  color: #2e2e2e;
+}
+
+a:hover {
+  color: #666;
+}
+
+p {
+  margin: 0;
+  /* text-transform: capitalize; */
+}
+
+h1,h2,h3 {
+  color: #095d6a;
+}
+
+.wrapper {
+  background-color: #71ADA9;
+  padding: 3em 25em;
+}
+
+.invoice {
+  font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  color: #666;
+  border-radius: 2px;
+  background-image: url('background2.png');
+  -webkit-box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37); 
+  box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37);
+  padding: 1.5em;
+  font-size: 14px;
+  position: relative;
+  line-height: 12px;
+}
+
+.invoice__content {
+  background-color: #ebebeb;
+  padding: 2em 4em;
+}
+
+.invoice__logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.invoice__row {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.invoice__row .invoice__column {
+  flex: 0.5;
+}
+
+.invoice__info p {
+  margin: 11px 0;
+}
+
+.invoice__info.invoice__info--right {
+  float: right;
+  text-align: right;
+}
+
+.table {
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14px;
+  padding-bottom: 24px;
+  border-bottom: 3px solid #71ADA9;
+}
+
+.table td {
+  padding: 8px 10px;
+}
+
+.table td:first-child {
+  width: 75%;
+}
+
+.table td:last-child {
+  text-align: right;
+}
+
+.table .table__header, .table .table__footer {
+  font-weight: 600;
+}
+
+.table .table__footer tr td:first-child {
+  text-align: right;
+  padding-right: 1.5em;
+}
+
+.table .table__header {
+  color: #095d6a;
+}
+
+.invoice .invoice__header {
+  margin-bottom: 48px;
+}
+
+.invoice .invoice__header {
+  border-bottom: 3px solid #71ADA9;
+  padding-bottom: 24px;
+}
+
+
+.invoice .invoice__body .invoice__row {
+  margin-bottom: 52px;
+}
+
+.invoice .invoice__footer {
+  min-height: 12em;
+}
+
+.invoice .invoice__footer .invoice__credit {
+  position: absolute;
+  /* should follow padding bottom of .invoice */
+  bottom: 4em; 
+}

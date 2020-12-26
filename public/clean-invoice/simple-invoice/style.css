@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #555;
+  font-size: 16px;
+}
+
+a {
+  color: #2e2e2e;
+}
+
+a:hover {
+  color: #666;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #99CED3;
+  padding: 3em 20em;
+}
+
+.invoice {
+  font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+  min-height: 100vh;
+  color: #555;
+  border-radius: 2px;
+  background-color: white;
+  -webkit-box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37); 
+  box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37);
+  padding: 4em;
+  font-size: 14px;
+  position: relative;
+  line-height: 18px;
+}
+
+.invoice__logo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.invoice__row {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.invoice__row .invoice__column {
+  flex: 0.5;
+}
+
+
+.invoice__column--flex {
+  display: flex;
+}
+
+
+.invoice__column--item-center {
+  align-items: center;
+}
+
+.invoice__info p {
+  margin: 11px 0;
+}
+
+.invoice__info.invoice__info--right {
+  float: right;
+  text-align: right;
+}
+
+.table {
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14px;
+}
+
+.table td {
+  padding: 12px 10px;
+}
+
+.table td:first-child {
+  width: 80%;
+}
+
+.table td:last-child {
+  text-align: right;
+}
+
+.table .table__header, .table .table__footer {
+  font-weight: 600;
+}
+
+.table .table__footer tr td:first-child {
+  text-align: right;
+  padding-right: 1.5em;
+}
+
+.table .table__header {
+  background-color: #eee;
+}
+
+.table .table__body td {
+  border-bottom: 1px solid #eee; 
+}
+
+
+.invoice .invoice__header {
+  margin-bottom: 48px;
+}
+
+.invoice .invoice__body .invoice__row {
+  margin-bottom: 32px;
+}
+
+.invoice .invoice__footer {
+  min-height: 12em;
+}
+
+.invoice .invoice__footer .invoice__credit {
+  position: absolute;
+  /* should follow padding bottom of .invoice */
+  bottom: 4em; 
+}
