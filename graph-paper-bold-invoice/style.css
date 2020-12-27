@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #3E3E3A;
+  font-size: 14px;
+}
+
+a {
+  color: #2e2e2e;
+}
+
+a:hover {
+  color: #666;
+}
+
+p {
+  margin: 0;
+}
+
+.wrapper {
+  background-color: #FFEEC2 ;
+  padding: 3em 20em;
+}
+
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+
+.mr-12 {
+  margin-right: 12px;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #101010;
+}
+
+.text--uppercase {
+  text-transform: uppercase;
+}
+
+.text--left {
+  text-align: left !important;
+}
+
+.text--bold {
+  font-weight: 600;
+}
+
+.bg--transparent {
+  background: rgba(0,0,0,0.1);
+}
+
+.bg--primary {
+  background-color: #FFD872;
+}
+
+.invoice {
+  font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  color: #3E3E3A;
+  border-radius: 2px;
+  background-image: url('background.png');
+  background-size: contain;
+  -webkit-box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37); 
+  box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37);
+  padding: 4em 3em;
+  font-size: 14px;
+  position: relative;
+}
+
+.invoice .invoice__header {
+  margin-bottom: 38px;
+}
+
+.invoice__row {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.display--flex {
+  display: flex;
+}
+
+.justify--evenly {
+  justify-content: space-evenly;
+}
+
+.justify--flex-end {
+  justify-content: flex-end;
+}
+
+.flex--3 {
+  flex: 0.3;
+}
+
+.flex--7 {
+  flex: 0.7;
+}
+
+.invoice__info {
+  width: 100%;
+}
+
+.invoice__info p {
+  margin: 11px 0;
+}
+
+.invoice__info h2 {
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.table {
+  border-spacing: 0;
+  width: 100%;
+  font-size: 14px;
+  border-collapse: collapse;
+}
+
+.table td {
+  padding: 5px 2px;
+  text-align: center;
+}
+
+.table td:first-child {
+  width: 70%;
+}
+
+.table td:first-child {
+  text-align: left;
+}
+
+.table td:last-child {
+  text-align: right;
+}
+
+.table .table__footer tr:first-child td {
+  padding-top: 28px;
+}
+
+.table .table__footer tr:last-child td {
+  padding-top: 14px;
+}
+
+.invoice .invoice__body .invoice__row {
+  margin-bottom: 32px;
+}
+
+.invoice .invoice__body .invoice__column {
+  padding: 10px 25px 65px;
+}
+
+.invoice .invoice__body .invoice__column .invoice__info {
+  margin-bottom: 38px;
+}
+
+.invoice .invoice__footer {
+  min-height: 12em;
+}
+
+.invoice .invoice__footer .invoice__credit {
+  position: absolute;
+  /* should follow padding bottom of .invoice */
+  bottom: 4em; 
+}
