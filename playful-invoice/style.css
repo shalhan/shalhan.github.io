@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #222;
+  font-size: 12px;
+  letter-spacing: 1px;
+  height: 100vh;
+  overflow: scroll;
+}
+
+a {
+  color: #2e2e2e;
+}
+
+a:hover {
+  color: #222;
+}
+
+p {
+  margin: 0;
+}
+
+.m-0 {
+  margin: 0;
+}
+
+.mb-12 {
+  margin-bottom: 12px;
+}
+
+.text--primary {
+  color: #E74C3A;
+}
+
+.text--secondary {
+  color: #00B8AC;
+}
+
+.text--center {
+  text-align: center;
+}
+
+h1,h2,h3 {
+  font-family: 'Lilita One', cursive;
+  color: #E74C3A;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 3.5em 0;
+  background-color: #a16855;
+}
+
+.invoice {
+  min-width: 595px;
+  max-width: 595px;
+  min-height: 842px;
+  max-height: 842px;
+  font-family: 'Montserrat', sans-serif;
+  color: #222;
+  border-radius: 2px;
+  background-image: url('background.png');
+  background-size: cover;
+  -webkit-box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37); 
+  box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37);
+  font-size: 12px;
+  position: relative;
+  line-height: 22px;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.invoice__content {
+  background-color: #FEFFEC;
+  padding: 6em 3.5em;
+  width: 75%;
+}
+
+.invoice__logo {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.invoice__row {
+  display: flex;
+  margin-bottom: 22px;
+}
+
+.invoice__row .invoice__column {
+  flex: 0.5;
+}
+
+.invoice__info.invoice__info--right {
+  float: right;
+  text-align: right;
+}
+
+.table {
+  border-spacing: 0;
+  width: 100%;
+  font-size: 1em;
+  padding-bottom: 24px;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.table td {
+  padding: 8px 10px;
+}
+
+.table .table__header {
+  font-weight: 600;
+  color: #00B8AC;
+  font-size: 1.1em;
+}
+
+.invoice .invoice__header {
+  margin-bottom: 45px;
+}
+
+.invoice .invoice__body {
+  min-height: 38%;
+}
+
+.invoice .invoice__body .invoice__row {
+  margin-bottom: 52px;
+}
+
+.invoice .invoice__footer {
+  border-top: 3px solid #222;
+  min-height: 12em;
+  padding-top: 24px;
+}
+
+.invoice .invoice__footer .invoice__credit {
+  position: absolute;
+  /* should follow padding bottom of .invoice */
+  bottom: 4em; 
+}
