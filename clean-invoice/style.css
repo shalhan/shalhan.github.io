@@ -5,6 +5,8 @@ body {
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1px;
+  height: 100vh;
+  overflow: scroll;
 }
 
 a {
@@ -25,13 +27,19 @@ h1,h2,h3 {
 }
 
 .wrapper {
+  display: flex;
+  justify-content: center;
   background-color: #71ADA9;
   padding: 3em 25em;
+  min-height: 100%;
 }
 
 .invoice {
+  min-width: 595px;
+  max-width: 595px;
+  min-height: 842px;
+  max-height: 842px;
   font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
-  min-height: 100vh;
   color: #666;
   border-radius: 2px;
   background-image: url('background2.png');
@@ -41,11 +49,15 @@ h1,h2,h3 {
   font-size: 14px;
   position: relative;
   line-height: 12px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
 .invoice__content {
   background-color: #ebebeb;
   padding: 2em 4em;
+  width: 80%;
 }
 
 .invoice__logo {
