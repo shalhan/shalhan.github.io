@@ -45,7 +45,6 @@ h1,h2,h3 {
   background-image: url('background2.png');
   -webkit-box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37); 
   box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37);
-  padding: 1.5em;
   font-size: 14px;
   position: relative;
   line-height: 12px;
@@ -56,8 +55,10 @@ h1,h2,h3 {
 
 .invoice__content {
   background-color: #ebebeb;
-  padding: 2em 4em;
+  padding: 2.5em;
   width: 80%;
+  height: 85%;
+  align-self: center;
 }
 
 .invoice__logo {
@@ -118,7 +119,7 @@ h1,h2,h3 {
 }
 
 .invoice .invoice__header {
-  margin-bottom: 48px;
+  margin-bottom: 20px;
 }
 
 .invoice .invoice__header {
