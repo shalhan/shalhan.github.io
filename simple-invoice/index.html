@@ -6,90 +6,92 @@
     <body>
         <div class="wrapper">
             <div class="invoice">
-                <div class="invoice__header">
-                    <div class="invoice__row">
-                        <div class="invoice__column invoice__column--flex invoice__column--item-center">
-                            <!-- logo -->
-                            <img class="invoice__logo" src="logo.png" alt="Your Logo">
+                <div class="invoice__content">
+                    <div class="invoice__header">
+                        <div class="invoice__row">
+                            <div class="invoice__column invoice__column--flex invoice__column--item-center">
+                                <!-- logo -->
+                                <img class="invoice__logo" src="logo.png" alt="Your Logo">
+                            </div>
+                            <div class="invoice__column">
+                                <!-- detail -->
+                                <div class="invoice__info invoice__info--right">
+                                <p>Invoice: INV-2020-0001</p>
+                                <p>Created: January 1, 2020</p>
+                                <p>Due: Feb 1, 2020</p>
+                                </div>
+                            </div>
                         </div>
-                        <div class="invoice__column">
-                            <!-- detail -->
-                            <div class="invoice__info invoice__info--right">
-                            <p>Invoice: INV-2020-0001</p>
-                            <p>Created: January 1, 2020</p>
-                            <p>Due: Feb 1, 2020</p>
+                        <div class="invoice__row">
+                            <div class="invoice__column">
+                                <!-- company -->
+                                <div class="invoice__info">
+                                <p>Templatoon, Inc</p>
+                                <p>1234 Goodwill Area</p>
+                                <p>Sun Francisco, 1255</p>
+                                </div>
+                            </div>
+                            <div class="invoice__column">
+                                <!-- buyer -->
+                                <div class="invoice__info invoice__info--right">
+                                <p>Boring Tld</p>
+                                <p>John Doe</p>
+                                <p>johndoe@example.com</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="invoice__row">
-                        <div class="invoice__column">
-                            <!-- company -->
-                            <div class="invoice__info">
-                            <p>Templatoon, Inc</p>
-                            <p>1234 Goodwill Area</p>
-                            <p>Sun Francisco, 1255</p>
-                            </div>
+                    <div class="invoice__body">
+                        <div class="invoice__row">
+                            <table class="table">
+                                <thead class="table__header table__header--dark">
+                                    <tr>
+                                        <td>Item</td>
+                                        <td>Amount ($)</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="table__body">
+                                    <tr>
+                                        <td>Web Hosting (1 month)</td>
+                                        <td>15</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>Domain (12 month)</td>
+                                        <td>9.8</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot class="table__footer">
+                                    <tr>
+                                        <td>TOTAL</td>
+                                        <td>24.8</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            <!-- items -->
                         </div>
-                        <div class="invoice__column">
-                            <!-- buyer -->
-                            <div class="invoice__info invoice__info--right">
-                            <p>Boring Tld</p>
-                            <p>John Doe</p>
-                            <p>johndoe@example.com</p>
-                            </div>
+                        <div class="invoice__row">
+                            <!-- payment method -->
+                            <table class="table">
+                                <thead class="table__header table__header--dark">
+                                    <tr>
+                                        <td>Method</td>
+                                        <td>Check ($)</td>
+                                    </tr>
+                                </thead>
+                                <tbody class="table__body">
+                                    <tr>
+                                        <td>Credit Card</td>
+                                        <td>24.8</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
-                </div>
-                <div class="invoice__body">
-                    <div class="invoice__row">
-                        <table class="table">
-                            <thead class="table__header table__header--dark">
-                                <tr>
-                                    <td>Item</td>
-                                    <td>Amount ($)</td>
-                                </tr>
-                            </thead>
-                            <tbody class="table__body">
-                                <tr>
-                                    <td>Web Hosting (1 month)</td>
-                                    <td>15</td>
-                                </tr>
-                                
-                                <tr>
-                                    <td>Domain (12 month)</td>
-                                    <td>9.8</td>
-                                </tr>
-                            </tbody>
-                            <tfoot class="table__footer">
-                                <tr>
-                                    <td>TOTAL</td>
-                                    <td>24.8</td>
-                                </tr>
-                            </tfoot>
-                        </table>
-                        <!-- items -->
-                    </div>
-                    <div class="invoice__row">
-                        <!-- payment method -->
-                        <table class="table">
-                            <thead class="table__header table__header--dark">
-                                <tr>
-                                    <td>Method</td>
-                                    <td>Check ($)</td>
-                                </tr>
-                            </thead>
-                            <tbody class="table__body">
-                                <tr>
-                                    <td>Credit Card</td>
-                                    <td>24.8</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="invoice__footer">
-                    <div class="invoice__credit">
-                        <small>Powered by <strong><a href="templatoon.com">templatoon.com</a></strong></small>
+                    <div class="invoice__footer">
+                        <div class="invoice__credit">
+                            <small>Powered by <strong><a href="templatoon.com">templatoon.com</a></strong></small>
+                        </div>
                     </div>
                 </div>
             </div>

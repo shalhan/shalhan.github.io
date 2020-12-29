@@ -21,7 +21,7 @@ p {
 
 .wrapper {
   background-color: #FFEEC2 ;
-  padding: 3em 20em;
+  padding: 3em 0;
   min-height: 100%;
   display: flex;
   justify-content: center;

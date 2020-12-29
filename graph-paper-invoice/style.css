@@ -2,7 +2,9 @@ body {
   margin: 0;
   padding: 0;
   color: #7D7484;
-  font-size: 16px;
+  font-size: 12px;
+  height: 100vh;
+  overflow: auto;
 }
 
 a {
@@ -19,7 +21,10 @@ p {
 
 .wrapper {
   background-color: #3A3C42 ;
-  padding: 3em 20em;
+  padding: 3em 0;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .mb-0 {
@@ -45,18 +50,28 @@ h1, h2, h3 {
 }
 
 .invoice {
+  min-width: 595px;
+  max-width: 595px;
+  min-height: 842px;
+  max-height: 842px;
   font-family: 'Bebas Neue', cursive;
-  min-height: 100vh;
   color: #7D7484;
   border-radius: 2px;
   background-image: url('background.png');
   background-size: contain;
   -webkit-box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37); 
   box-shadow: 1px 11px 20px 2px rgba(0,0,0,0.37);
-  padding: 4em;
   font-size: 14px;
   position: relative;
   letter-spacing: 1.8px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.invoice .invoice__content {
+  padding: 2.5em;
+  width: 100%;
 }
 
 .invoice__title {
@@ -120,7 +135,7 @@ h1, h2, h3 {
 .table {
   border-spacing: 0;
   width: 100%;
-  font-size: 14px;
+  font-size: 12px;
   border-collapse: collapse;
 }
 
